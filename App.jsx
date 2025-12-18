@@ -10,7 +10,6 @@ const App = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // Gọi API khi component mount
   useEffect(() => {
     fetchUsers();
   }, []);
