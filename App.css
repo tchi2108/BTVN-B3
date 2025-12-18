@@ -1,0 +1,20 @@
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.user-card {
+  height: 100%;
+}
